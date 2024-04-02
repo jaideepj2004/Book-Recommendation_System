@@ -26,7 +26,7 @@ except Exception as e:
     logging.error(f"Error loading model data: {e}")
 
 # Load the filtered dataset
-filtered_df = pd.read_csv(r"C:\Users\jaide\OneDrive\Desktop\Data Science\Internship\pwskills book recomendation system\project1\filtered_books.csv")
+filtered_df = pd.read_csv("filtered_books.csv")
 
 # Create TF-IDF vectorizer
 tfidf_vectorizer = TfidfVectorizer(stop_words='english')
@@ -64,4 +64,4 @@ def recommendation():
         return render_template('index.html', genres=genres)  
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run("0.0.0.0")
