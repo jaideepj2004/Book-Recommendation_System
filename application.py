@@ -6,7 +6,8 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 import pickle as pkl 
 
 # Initialize Flask application
-app = Flask(__name__)
+application = Flask(__name__)
+app = application
 
 # Configure logging
 logging.basicConfig(filename='app.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
