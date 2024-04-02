@@ -8,3 +8,13 @@
 2024-04-02 12:47:22,253 - INFO - 127.0.0.1 - - [02/Apr/2024 12:47:22] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
 2024-04-02 12:47:23,458 - INFO - 127.0.0.1 - - [02/Apr/2024 12:47:23] "POST /recommendation HTTP/1.1" 200 -
 2024-04-02 12:47:23,474 - INFO - 127.0.0.1 - - [02/Apr/2024 12:47:23] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-04-02 13:59:44,535 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-04-02 13:59:44,535 - INFO - [33mPress CTRL+C to quit[0m
+2024-04-02 13:59:44,545 - INFO -  * Restarting with watchdog (windowsapi)
+2024-04-02 13:59:45,627 - WARNING -  * Debugger is active!
+2024-04-02 13:59:45,638 - INFO -  * Debugger PIN: 454-210-885
+2024-04-02 13:59:56,365 - INFO - 127.0.0.1 - - [02/Apr/2024 13:59:56] "GET / HTTP/1.1" 200 -
+2024-04-02 13:59:56,394 - INFO - 127.0.0.1 - - [02/Apr/2024 13:59:56] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-04-02 13:59:57,981 - INFO - 127.0.0.1 - - [02/Apr/2024 13:59:57] "POST /recommendation HTTP/1.1" 200 -
+2024-04-02 13:59:58,003 - INFO - 127.0.0.1 - - [02/Apr/2024 13:59:58] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
